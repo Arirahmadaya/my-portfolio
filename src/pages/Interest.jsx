@@ -26,7 +26,7 @@ const Interest = () => {
   ];
 
   return (
-    <section id="interest" className="px-12 py-24 bg-white">
+    <section id="interest" className="px-12 py-24 bg-gray-50">
       <div className="container mx-auto">
         <h2 className="text-5xl font-bold text-center mb-12">Interest</h2>
         <p className="text-xl leading-relaxed text-center mb-8">

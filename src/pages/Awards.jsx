@@ -13,9 +13,9 @@ const Awards = () => {
   ];
 
   return (
-    <section id="awards" className="px-12 py-24 bg-gray-100">
+    <section id="awards" className="px-12 py-24 bg-gray-900 h-screen">
       <div className="container mx-auto">
-        <h2 className="text-5xl font-bold text-center mb-12">Awards</h2>
+        <h2 className="text-5xl font-bold text-center text-white mb-12">Awards</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {awards.map((award, index) => (
             <Card
